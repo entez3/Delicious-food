@@ -1,0 +1,33 @@
+.header {
+  color: #fff;
+  background-color: #000000;
+  background-image: linear-gradient(to bottom, #36363660, #000000),
+    url("/public/pic/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  display: grid;
+  align-content: center;
+  gap: 15px;
+  justify-items: center;
+  height: 85vh;
+
+}
+
+.header > h2 > span {
+  color: #ffa500;
+}
+
+.header-btn {
+  border-radius: 9px;
+  padding: 15px;
+  color: #fff;
+  background-color: #ffa500;
+  border: 2px solid #ffa500;
+  transition: all .4s;
+}
+
+.header-btn:hover{
+    background-color: #050300;
+    color: #fff;
+    cursor: pointer;
+}

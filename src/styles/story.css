@@ -1,0 +1,19 @@
+.story > div {
+  display: grid;
+  gap: 5px;
+  grid-column: 1/-1;
+  grid-template-rows: repeat(1, 250px);
+  grid-auto-rows: 250px;
+  grid-template-columns: repeat(4, minmax(200px, 450px));
+  padding: 0 10px;
+  justify-content: space-evenly;
+}
+
+.img {
+  border-radius: 15px;
+  width: 100%;
+  max-height: 230px;
+  height: 100%;
+}
+
+

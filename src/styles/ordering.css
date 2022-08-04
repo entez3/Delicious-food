@@ -1,0 +1,54 @@
+.oreding-box{
+    padding: 40px;
+    background-image: linear-gradient(to bottom, #817e7e41, #412d2d4d),
+    url("/public/pic/360.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50px repeat(4,1fr) 50px;
+    grid-template-rows: repeat(1,1fr);
+}
+
+.left{
+    background-color: #00000086;
+    color: #fff;
+    align-items: center;
+    display: grid;
+    grid-column: 2/3;
+    grid-template-rows: 2fr 1fr repeat(3,0.5fr) 2fr;
+}
+
+.parantes{
+    color: #ffa500;
+}
+
+.banner{
+    padding: 10px;
+}
+
+.right{
+    display: grid;
+    grid-template-rows: 0.5fr 0fr 0.5fr 0fr 1fr;
+    background-color: #ffffffb6;
+    align-items: center;
+    grid-column: 3/6;
+}
+
+.right-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-items: center;
+
+}
+
+.right-box>img{
+    width: 70%;
+    clip-path: circle(25% at 50% 50%);
+}
+
+.right-titel{
+    color: #ffa500;
+    text-shadow: 1px 1px #000000;
+    font-family: Satisfy;
+}
