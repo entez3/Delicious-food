@@ -1,0 +1,39 @@
+footer {
+  font-size: 11px;
+  background-color: rgb(240, 240, 240);
+}
+
+footer > .row {
+  padding: 20px 0;
+}
+.title {
+  padding-bottom: 5px;
+  color: #ffa500;
+}
+
+.footer-item {
+  display: grid;
+}
+.footer-item > a {
+  padding: 6px;
+}
+
+.footer-icon {
+    width: 11px;
+}
+
+a {
+    transition: all 0.4s;
+}
+
+a:hover {
+    color: #ffa500;
+}
+
+.copyright-title > span {
+  color: #ffa500;
+}
+
+.copyright-title{
+    padding: 15px;
+}

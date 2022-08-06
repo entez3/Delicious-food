@@ -1,11 +1,13 @@
 import React from "react";
 import "./styles/fonts.css";
+import "./styles/grid.css";
 import "./styles/main.css";
 import "./styles/header.css";
 import "./styles/story.css";
 import "./styles/services.css";
 import "./styles/ordering.css";
 import "./styles/gallery.css";
+import "./styles/footer.css";
 import "./styles/responsive.css";
 
 const App = () => {
@@ -88,7 +90,7 @@ const App = () => {
           <section className="oreding-box">
             <div className="left">
               <h4>order esily!</h4>
-              <h4 className="right-titel">branch</h4>
+              <h4 className="right-title">branch</h4>
               <h6>
                 France<span class="parantes">(</span>Paris
                 <span class="parantes">)</span>
@@ -129,8 +131,40 @@ const App = () => {
             <div className="gallery gallery5"></div>
           </section>
         </section>
+        <hr />
         <footer class="grid-item footer">
-          <h3 className="section-title">footer</h3>
+          <section className="row ">
+            <div className="col-12 col-sm-6 col-md-4 footer-item">
+              <h2 className="title">Service</h2>
+              <a href="#">Answer FAQ</a>
+              <a href="#">Bugs Reports</a>
+              <a href="#">Security</a>
+            </div>
+            <div className="col-12 col-sm-6 col-md-4 footer-item">
+              <h2 className="title">Comminucation</h2>
+              <a href="#">
+                {" "}
+                <img className="footer-icon" src="./pic/telegram.png" alt="telegram" /> Telegram
+              </a>
+              <a href="#">
+                {" "}
+                <img className="footer-icon" src="./pic/whatsapp.png" alt="whatsapp" /> Whatsapp
+              </a>
+              <a href="#">
+                {" "}
+                <img className="footer-icon" src="./pic/youtube.png" alt="youtube" /> Youtube
+              </a>
+            </div>
+            <div className="col-12 col-sm-6 col-md-4 footer-item">
+              <h2 className="title">DELICIOUS Food</h2>
+              <a href="#">Online Reserve</a>
+              <a href="#">Recipe</a>
+              <a href="#">Hiring a chef</a>
+            </div>
+          </section>
+          <h5 className="copyright-title">
+            ©All information is reserved by <span> DELICIOUS</span> food
+          </h5>
         </footer>
       </main>
     </>

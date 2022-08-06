@@ -1,3 +1,11 @@
+.gallery {
+  margin-bottom: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
 .gallery-box {
   display: grid;
   grid-template-columns: repeat(3, minmax(100px, 400px));
@@ -14,12 +22,6 @@
   max-height: 100%;
 }
 
-.gallery {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 10px;
-}
 
 .gallery1 {
   grid-row: 1;
