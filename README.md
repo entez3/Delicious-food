@@ -1,5 +1,5 @@
 # preview:
-([delicious-food-ent.netlify.app](https://delicious-food-ent.netlify.app/))
+[delicious-food-ent.netlify.app](https://delicious-food-ent.netlify.app/)
 
 # Getting Started with Create React App
 
