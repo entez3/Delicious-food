@@ -1,3 +1,6 @@
+# preview:
+[https://delicious-food-ent.netlify.app/](delicious-food-ent.netlify.app)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
